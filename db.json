@@ -1,0 +1,341 @@
+{
+    "utilisateurs": [
+        {
+            "id": "user-001",
+            "nom": "Moussa Diop",
+            "email": "moussa@chantier.sn",
+            "motDePasse": "admin1234",
+            "roleGlobal": "Admin",
+            "statutUtilisateur": "Actif",
+            "dateDeCreation": "2024-01-01T00:00:00.000Z"
+        },
+        {
+            "id": "user-002",
+            "nom": "Ibrahima Fall",
+            "email": "ibrahima@chantier.sn",
+            "motDePasse": "chef1234",
+            "roleGlobal": "Chef de chantier",
+            "statutUtilisateur": "Actif",
+            "dateDeCreation": "2024-01-05T08:00:00.000Z"
+        },
+        {
+            "id": "user-003",
+            "nom": "Ousmane Ndiaye",
+            "email": "ousmane@chantier.sn",
+            "motDePasse": "ouvrier1234",
+            "roleGlobal": "Ouvrier",
+            "statutUtilisateur": "Actif",
+            "dateDeCreation": "2024-01-10T08:00:00.000Z"
+        },
+        {
+            "id": "user-004",
+            "nom": "Aminata Sow",
+            "email": "aminata@chantier.sn",
+            "motDePasse": "ouvrier5678",
+            "roleGlobal": "Ouvrier",
+            "statutUtilisateur": "Actif",
+            "dateDeCreation": "2024-01-12T08:00:00.000Z"
+        },
+        {
+            "id": "user-005",
+            "nom": "Cheikh Mbaye",
+            "email": "cheikh@client.sn",
+            "motDePasse": "client1234",
+            "roleGlobal": "Client",
+            "statutUtilisateur": "Actif",
+            "dateDeCreation": "2024-01-15T08:00:00.000Z"
+        }
+    ],
+    "projets": [
+        {
+            "id": "projet-001",
+            "nom": "Construction villa Almadies",
+            "adresse": "Almadies, Dakar",
+            "dateDeDebut": "2024-02-01",
+            "dateDeFinPrevue": "2024-08-30",
+            "statutProjet": "En cours"
+        },
+        {
+            "id": "projet-002",
+            "nom": "Rénovation bureaux Plateau",
+            "adresse": "Plateau, Dakar",
+            "dateDeDebut": "2024-03-15",
+            "dateDeFinPrevue": "2024-06-30",
+            "statutProjet": "Planifier"
+        }
+    ],
+    "projetMembres": [
+        {
+            "id": "pm-001",
+            "projetId": "projet-001",
+            "utilisateurId": "user-002",
+            "roleChantier": "Chef",
+            "dateAjout": "2024-02-01T08:00:00.000Z"
+        },
+        {
+            "id": "pm-002",
+            "projetId": "projet-001",
+            "utilisateurId": "user-003",
+            "roleChantier": "Ouvrier",
+            "dateAjout": "2024-02-01T08:00:00.000Z"
+        },
+        {
+            "id": "pm-003",
+            "projetId": "projet-001",
+            "utilisateurId": "user-004",
+            "roleChantier": "Ouvrier",
+            "dateAjout": "2024-02-01T08:00:00.000Z"
+        },
+        {
+            "id": "pm-004",
+            "projetId": "projet-001",
+            "utilisateurId": "user-005",
+            "roleChantier": "Client",
+            "dateAjout": "2024-02-01T08:00:00.000Z"
+        },
+        {
+            "id": "pm-005",
+            "projetId": "projet-002",
+            "utilisateurId": "user-002",
+            "roleChantier": "Chef",
+            "dateAjout": "2024-03-15T08:00:00.000Z"
+        }
+    ],
+    "phases": [
+        {
+            "id": "phase-001",
+            "projetId": "projet-001",
+            "libelle": "Fondations",
+            "ordre": 1,
+            "dateDeDebut": "2024-02-01",
+            "dateDeFinPrevue": "2024-03-15",
+            "statutPhase": "Terminer"
+        },
+        {
+            "id": "phase-002",
+            "projetId": "projet-001",
+            "libelle": "Gros oeuvre",
+            "ordre": 2,
+            "dateDeDebut": "2024-03-16",
+            "dateDeFinPrevue": "2024-06-30",
+            "statutPhase": "En cours"
+        },
+        {
+            "id": "phase-003",
+            "projetId": "projet-001",
+            "libelle": "Second oeuvre",
+            "ordre": 3,
+            "dateDeDebut": "2024-07-01",
+            "dateDeFinPrevue": "2024-08-15",
+            "statutPhase": "En attente"
+        },
+        {
+            "id": "phase-004",
+            "projetId": "projet-002",
+            "libelle": "Démolition et préparation",
+            "ordre": 1,
+            "dateDeDebut": "2024-03-15",
+            "dateDeFinPrevue": "2024-04-15",
+            "statutPhase": "En attente"
+        }
+    ],
+    "taches": [
+        {
+            "id": "tache-001",
+            "phaseId": "phase-001",
+            "titre": "Terrassement",
+            "description": "Creuser et préparer le terrain pour les fondations",
+            "progression": 100,
+            "dateDeDebut": "2024-02-01",
+            "dateDeFin": "2024-02-15",
+            "statutTache": "Terminer"
+        },
+        {
+            "id": "tache-002",
+            "phaseId": "phase-001",
+            "titre": "Coulage des fondations",
+            "description": "Mise en place du béton armé pour les fondations",
+            "progression": 100,
+            "dateDeDebut": "2024-02-16",
+            "dateDeFin": "2024-03-15",
+            "statutTache": "Terminer"
+        },
+        {
+            "id": "tache-003",
+            "phaseId": "phase-002",
+            "titre": "Montage des murs RDC",
+            "description": "Construction des murs du rez-de-chaussée en parpaings",
+            "progression": 75,
+            "dateDeDebut": "2024-03-16",
+            "dateDeFin": "2024-05-01",
+            "statutTache": "En cours"
+        },
+        {
+            "id": "tache-004",
+            "phaseId": "phase-002",
+            "titre": "Dalle du premier étage",
+            "description": "Coffrage et coulage de la dalle béton armé R+1",
+            "progression": 0,
+            "dateDeDebut": "2024-05-02",
+            "dateDeFin": "2024-06-30",
+            "statutTache": "A faire"
+        },
+        {
+            "id": "tache-005",
+            "phaseId": "phase-003",
+            "titre": "Plomberie",
+            "description": "Installation des réseaux d'eau et d'évacuation",
+            "progression": 0,
+            "dateDeDebut": "2024-07-01",
+            "dateDeFin": "2024-07-31",
+            "statutTache": "A faire"
+        }
+    ],
+    "affectationTaches": [
+        {
+            "id": "affect-001",
+            "tacheId": "tache-001",
+            "utilisateurId": "user-003",
+            "dateDeDebut": "2024-02-01",
+            "dateDeFin": "2024-02-15",
+            "statutPersonnel": "Terminer"
+        },
+        {
+            "id": "affect-002",
+            "tacheId": "tache-002",
+            "utilisateurId": "user-003",
+            "dateDeDebut": "2024-02-16",
+            "dateDeFin": "2024-03-15",
+            "statutPersonnel": "Terminer"
+        },
+        {
+            "id": "affect-003",
+            "tacheId": "tache-003",
+            "utilisateurId": "user-003",
+            "dateDeDebut": "2024-03-16",
+            "dateDeFin": "2024-05-01",
+            "statutPersonnel": "En cours"
+        },
+        {
+            "id": "affect-004",
+            "tacheId": "tache-003",
+            "utilisateurId": "user-004",
+            "dateDeDebut": "2024-03-16",
+            "dateDeFin": "2024-05-01",
+            "statutPersonnel": "En cours"
+        },
+        {
+            "id": "affect-005",
+            "tacheId": "tache-004",
+            "utilisateurId": "user-004",
+            "dateDeDebut": "2024-05-02",
+            "dateDeFin": "2024-06-30",
+            "statutPersonnel": "Non commencer"
+        }
+    ],
+    "materiaux": [
+        {
+            "id": "mat-001",
+            "projetId": "projet-001",
+            "nom": "Ciment CEM II",
+            "quantiteCommander": 500,
+            "quantiteLivrer": 480,
+            "prix": 8500
+        },
+        {
+            "id": "mat-002",
+            "projetId": "projet-001",
+            "nom": "Sable fin",
+            "quantiteCommander": 200,
+            "quantiteLivrer": 200,
+            "prix": 3000
+        },
+        {
+            "id": "mat-003",
+            "projetId": "projet-001",
+            "nom": "Fer à béton 12mm",
+            "quantiteCommander": 300,
+            "quantiteLivrer": 180,
+            "prix": 12000
+        },
+        {
+            "id": "mat-004",
+            "projetId": "projet-001",
+            "nom": "Parpaings creux",
+            "quantiteCommander": 5000,
+            "quantiteLivrer": 2000,
+            "prix": 250
+        },
+        {
+            "id": "mat-005",
+            "projetId": "projet-002",
+            "nom": "Plâtre en sac",
+            "quantiteCommander": 100,
+            "quantiteLivrer": 0,
+            "prix": 6500
+        }
+    ],
+    "rapports": [
+        {
+            "id": "rapport-001",
+            "projetId": "projet-001",
+            "auteurId": "user-002",
+            "date": "2024-03-16",
+            "contenu": "Les fondations sont terminées dans les délais. Le terrassement et le coulage du béton ont été réalisés sans incident. L'équipe est prête pour démarrer le gros oeuvre.",
+            "statutRapport": "Publié"
+        },
+        {
+            "id": "rapport-002",
+            "projetId": "projet-001",
+            "auteurId": "user-002",
+            "date": "2024-04-30",
+            "contenu": "Avancement du gros oeuvre à 75%. Les murs du RDC sont en cours de montage. Un retard de livraison sur le fer à béton risque de bloquer le démarrage de la dalle R+1.",
+            "statutRapport": "Publié"
+        }
+    ],
+    "signalements": [
+        {
+            "id": "signal-001",
+            "projetId": "projet-001",
+            "phaseId": "phase-002",
+            "tacheId": "tache-003",
+            "titre": "Retard livraison fer à béton",
+            "description": "Le fournisseur a livré seulement 180 unités sur 300 commandées. Le démarrage de la dalle est menacé.",
+            "dateDeSignalement": "2024-04-25T10:30:00.000Z",
+            "statut": "En traitement"
+        },
+        {
+            "id": "signal-002",
+            "projetId": "projet-001",
+            "phaseId": "phase-002",
+            "tacheId": null,
+            "titre": "Fissure constatée sur mur nord",
+            "description": "Une fissure de 2mm a été observée sur le mur nord du RDC. Expertise nécessaire avant de continuer.",
+            "dateDeSignalement": "2024-05-02T08:00:00.000Z",
+            "statut": "En traitement"
+        }
+    ],
+    "photos": [
+        {
+            "id": "photo-001",
+            "tacheId": "tache-001",
+            "utilisateurId": "user-003",
+            "url": "https://placehold.co/800x600?text=Terrassement+terminé",
+            "dateDeCreation": "2024-02-15T16:00:00.000Z"
+        },
+        {
+            "id": "photo-002",
+            "tacheId": "tache-002",
+            "utilisateurId": "user-003",
+            "url": "https://placehold.co/800x600?text=Fondations+coulées",
+            "dateDeCreation": "2024-03-15T17:00:00.000Z"
+        },
+        {
+            "id": "photo-003",
+            "tacheId": "tache-003",
+            "utilisateurId": "user-004",
+            "url": "https://placehold.co/800x600?text=Murs+RDC+en+cours",
+            "dateDeCreation": "2024-04-20T14:30:00.000Z"
+        }
+    ]
+}
