@@ -7,6 +7,7 @@
             "motDePasse": "admin1234",
             "roleGlobal": "Admin",
             "statutUtilisateur": "Actif",
+            "statutDisponibilite": "Disponible",
             "dateDeCreation": "2024-01-01T00:00:00.000Z"
         },
         {
@@ -16,6 +17,7 @@
             "motDePasse": "chef1234",
             "roleGlobal": "Chef de chantier",
             "statutUtilisateur": "Actif",
+            "statutDisponibilite": "Occuper",
             "dateDeCreation": "2024-01-05T08:00:00.000Z"
         },
         {
@@ -25,6 +27,7 @@
             "motDePasse": "ouvrier1234",
             "roleGlobal": "Ouvrier",
             "statutUtilisateur": "Actif",
+            "statutDisponibilite": "Occuper",
             "dateDeCreation": "2024-01-10T08:00:00.000Z"
         },
         {
@@ -34,6 +37,7 @@
             "motDePasse": "ouvrier5678",
             "roleGlobal": "Ouvrier",
             "statutUtilisateur": "Actif",
+            "statutDisponibilite": "Occuper",
             "dateDeCreation": "2024-01-12T08:00:00.000Z"
         },
         {
@@ -43,6 +47,7 @@
             "motDePasse": "client1234",
             "roleGlobal": "Client",
             "statutUtilisateur": "Actif",
+            "statutDisponibilite": "Disponible",
             "dateDeCreation": "2024-01-15T08:00:00.000Z"
         }
     ],
@@ -69,35 +74,30 @@
             "id": "pm-001",
             "projetId": "projet-001",
             "utilisateurId": "user-002",
-            "roleChantier": "Chef",
             "dateAjout": "2024-02-01T08:00:00.000Z"
         },
         {
             "id": "pm-002",
             "projetId": "projet-001",
             "utilisateurId": "user-003",
-            "roleChantier": "Ouvrier",
             "dateAjout": "2024-02-01T08:00:00.000Z"
         },
         {
             "id": "pm-003",
             "projetId": "projet-001",
             "utilisateurId": "user-004",
-            "roleChantier": "Ouvrier",
             "dateAjout": "2024-02-01T08:00:00.000Z"
         },
         {
             "id": "pm-004",
             "projetId": "projet-001",
             "utilisateurId": "user-005",
-            "roleChantier": "Client",
             "dateAjout": "2024-02-01T08:00:00.000Z"
         },
         {
             "id": "pm-005",
             "projetId": "projet-002",
             "utilisateurId": "user-002",
-            "roleChantier": "Chef",
             "dateAjout": "2024-03-15T08:00:00.000Z"
         }
     ],
