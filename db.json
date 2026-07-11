@@ -56,6 +56,7 @@
             "id": "projet-001",
             "nom": "Construction villa Almadies",
             "adresse": "Almadies, Dakar",
+            "description": "Construction d'une villa moderne de 350m² sur deux niveaux, comprenant 4 chambres, une piscine et un jardin paysager. Le projet inclut les fondations, le gros oeuvre, la plomberie, l'électricité et les finitions.",
             "dateDeDebut": "2024-02-01",
             "dateDeFinPrevue": "2024-08-30",
             "statutProjet": "En cours"
@@ -64,6 +65,7 @@
             "id": "projet-002",
             "nom": "Rénovation bureaux Plateau",
             "adresse": "Plateau, Dakar",
+            "description": "Rénovation complète d'un plateau de bureaux de 200m² : démolition des cloisons existantes, réaménagement des espaces de travail, mise aux normes électriques et remplacement du système de climatisation.",
             "dateDeDebut": "2024-03-15",
             "dateDeFinPrevue": "2024-06-30",
             "statutProjet": "Planifier"
