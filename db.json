@@ -286,7 +286,9 @@
             "auteurId": "user-002",
             "date": "2024-03-16",
             "contenu": "Les fondations sont terminées dans les délais. Le terrassement et le coulage du béton ont été réalisés sans incident. L'équipe est prête pour démarrer le gros oeuvre.",
-            "statutRapport": "Publié"
+            "statutRapport": "Publié",
+            "photos": [],
+            "supprime": false
         },
         {
             "id": "rapport-002",
@@ -294,7 +296,9 @@
             "auteurId": "user-002",
             "date": "2024-04-30",
             "contenu": "Avancement du gros oeuvre à 75%. Les murs du RDC sont en cours de montage. Un retard de livraison sur le fer à béton risque de bloquer le démarrage de la dalle R+1.",
-            "statutRapport": "Publié"
+            "statutRapport": "Publié",
+            "photos": [],
+            "supprime": false
         }
     ],
     "signalements": [
