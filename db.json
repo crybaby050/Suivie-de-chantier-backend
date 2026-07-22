@@ -49,6 +49,16 @@
             "statutUtilisateur": "Actif",
             "statutDisponibilite": "Disponible",
             "dateDeCreation": "2024-01-15T08:00:00.000Z"
+        },
+        {
+            "id": "user-006",
+            "nom": "Coach Diouf",
+            "email": "diouf@gmail.com",
+            "motDePasse": "diouf123",
+            "roleGlobal": "Admin",
+            "statutUtilisateur": "Actif",
+            "statutDisponibilite": "Disponible",
+            "dateDeCreation": "2026-01-15T08:00:00.000Z"
         }
     ],
     "projets": [
